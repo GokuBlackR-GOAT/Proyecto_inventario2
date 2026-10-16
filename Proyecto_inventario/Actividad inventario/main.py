@@ -23,7 +23,7 @@ async def prueba_de_estres():
             actualizar_stock(8, "M001"), 
             obtener_producto("M002")
         )
-        print("✅ Operaciones mixtas completadas.")
+        print(" Operaciones mixtas completadas.")
         print(f"   Update devolvió: {resultado[0]}")
         print(f"   Get devolvió: {resultado[1]}")
     except Exception as e:
